@@ -1,0 +1,98 @@
+body{
+    background: #f3e9d2;
+    margin: 0px;
+}
+.logo,.inicio{
+    width: 3em;
+    height: 3em;
+}
+.logo{
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6DABF;
+}
+.k{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carrito,.check{
+    width: 3em;
+    height: 3em;
+}
+.guada{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogo{
+    background-color: #f5d1c9;
+    display: flex;
+    justify-content: space-around;
+}
+.sopa{
+    width: 7em;
+    height: 14em;
+}
+.lupito{
+    display: flex;
+    justify-content: space-around;
+}
+.a,.b,.c,.d,.e,.f{
+    display: flex;
+    justify-content: center;
+}
+.in,.ca,.new,.of,.yo{
+    width: 2em;
+    height: 2em;
+}
+.end{
+    background-color: #88d498;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 800px) {
+body{
+    background-color: f3e9d2;
+    margin: 0px;
+    }
+.logo,.inicio{
+    width: 6em;
+    height: 6em;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6DABF;
+}
+.check,.carrito{
+    width: 5em;
+    height: 5em;
+}
+.guada{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#ebebec;
+}
+.sopa{
+    width: 13em;
+    height: 20em;
+    background-color: white;
+}
+.lupito{
+    display: flex;
+    justify-content: space-evenly;
+}
+.in,.ca,.new,.of,.yo{
+    width: 4em;
+    height: 4em;
+}
+.end{
+    background-color: #88d498;
+}
+}
